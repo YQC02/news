@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互联网审核员资格测试</title>
+		<link rel="stylesheet" type="text/css" href="./css/index.css" />
+</head>
+<body class="bball">
+    <body class="all" style="background: url(images/1-5.jpg) no-repeat;background-size: cover;">
+		<div class="test">
+			<p>5/8：请问你是否能接受三班倒的工作强度？</p>	
+			<div class="test-cho">
+				<a href="06.html" class="test-cho1" onclick="handle1()">是</a>
+				<a href="06.html" class="test-cho2" onclick="handle2()" >否</a>
+			</div>			
+		</div>
+		<script>
+			function handle1 () {
+				var cho1 = document.querySelector('.test-cho1').innerHTML
+				if (cho1 == '是') {
+					window.localStorage.setItem('subject5', '是');
+				}
+			}
+			function handle2 () {
+				var cho2 = document.querySelector('.test-cho2').innerHTML
+				if (cho2 == '否') {
+					window.localStorage.setItem('subject5', '否');
+				}
+			}
+		</script>
+</body>
+</html>

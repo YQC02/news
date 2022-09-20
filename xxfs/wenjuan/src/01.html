@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>互联网审核员资格测试</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+</head>
+<body class="bball" style="background: url(images/1-5.jpg) no-repeat;background-size: cover;">
+    <div class="all">
+		<div class="test">
+			<p>1/8：请问你是否有社交平台使用习惯？</p>	
+			<div class="test-cho">
+				<a href="02.html" class="test-cho1" onclick="handle1()">是</a>
+				<a href="02.html" class="test-cho2" onclick="handle2()">否</a>
+			</div>			
+		</div>
+
+
+		<script>
+			function handle1 () {
+				var cho1 = document.querySelector('.test-cho1').innerHTML
+				if (cho1 == '是') {
+					window.localStorage.setItem('subject1', '是');
+				}
+			}
+			function handle2 () {
+				var cho2 = document.querySelector('.test-cho2').innerHTML
+				if (cho2 == '否') {
+					window.localStorage.setItem('subject1', '否');
+				}
+			}
+		</script>
+</div>
+</html>

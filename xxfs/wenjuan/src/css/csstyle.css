@@ -1,0 +1,121 @@
+
+body{
+	margin: 0 auto;
+	padding: 0px;
+}
+.bball,.bbtest{
+	background-color: rgb(0, 0, 0);	
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
+.all,.test,.res{
+	width: 1000px;
+	margin: 100px 500px;
+	position: relative;
+}
+.all h1{
+	text-align: center;
+	color: rgb(240, 240, 240);
+	padding-top: 70px;
+}
+.all img,.test img{
+	display: block;
+	margin: 0 auto;
+}
+.all p{
+	padding: 10px 100px;
+	color: #e7e7e7;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+	text-align: center;
+}
+.all a{
+	text-decoration: none;
+}
+.all button,.res button{
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+}
+.all button{
+	background-color: rgb(218, 216, 216);
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.res button{
+	float: right;
+	margin-top: 90px;
+}
+
+
+.test h2{
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-bottom: 50px;
+}
+.test p{
+	color: rgb(0, 0, 0);
+	font-size: 30px;
+	font-family: "微软雅黑";
+	padding-left: 280px;
+	padding-top: 300px;
+}
+.test .test-cho{
+	margin-top: 100px;
+	margin-left: 345px;
+}
+.test .test-cho a{
+	text-decoration: none;
+	display: block;
+	color: rgb(40, 133, 141);
+	width: 400px;
+	height: 50px;
+	line-height: 48px;
+	font-size: 23px;
+	text-align: center;
+}
+.test .test-cho a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.test .test-cho .test-cho1,.test .test-cho .test-cho3，{
+	border: 1px solid #ccc;
+
+}
+.test .test-cho .test-cho2{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.res h2{
+	text-align: center;
+	margin-bottom: 100px;
+}			
+.res img{
+	float: left;
+	margin-top: 30px;
+	margin-right: 80px;
+}
+.res .res-ack{
+	margin-top: 120px;
+}
+.res p,.res i{
+	font-size: 18px;
+	font-family: "微软雅黑";	
+}
+.res i{
+	font-style: normal;
+	font-weight: bold;
+}
+.res p{
+	text-indent: 2em;
+	line-height: 30px;
+}
+

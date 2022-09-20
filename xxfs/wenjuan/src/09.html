@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互联网审核员资格测试</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+<head>
+<body class="bball" style="background: url(images/问卷1-5.jpg) no-repeat;background-size: cover;">
+    <div class="all" style="height: 50px;">
+        <h1 class="h12">你的测试结果为</h1>
+    </div>
+    <div style="position: absolute;top: 60%;left: 50%;"><a href="../../page4.html#fanhui"><img src="../../images/skip1.png" style="width: 19%;"></a></div>
+    <div class="show" style="color: rgb(0, 255, 255);font-size: 25px;font-family: 微软雅黑;
+    width: 900px;height: 80px;border:3px solid #ccc;margin: 0 auto;text-align: center;line-height: 80px;
+    position:relative;top: 200px;left: 20px;"></div>
+    <script>
+        // if (condition) {
+        //     console.log("很遗憾，你的条件不符合我司的招聘要求，还有别的职位更适合你~")
+        // } else {
+        //     console.log("恭喜你通过筛选，欢迎来到互联网审核员的世界!")
+        // }
+        var subject1 = window.localStorage.getItem('subject1')
+        var subject4 = window.localStorage.getItem('subject4')
+        var subject5 = window.localStorage.getItem('subject5')
+        var subject7 = window.localStorage.getItem('subject7')
+        var subject8 = window.localStorage.getItem('subject8')
+        var flag = subject1=='是'&&subject4=='是'&&subject5=='是'&&subject8=='是'&&subject7=='否'
+        if (flag == true) {
+            var show = document.querySelector('.show')
+            show.innerHTML = "恭喜你通过筛选，欢迎来到互联网审核员的世界!"
+        } else {
+            var show = document.querySelector('.show')
+            show.innerHTML = "很遗憾，你的条件不符合我司的招聘要求，还有别的职位更适合你~"
+        }
+        </script>
+        <div>
+     </div>
+</body>
+</html>
